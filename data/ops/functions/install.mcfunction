@@ -16,8 +16,8 @@ scoreboard objectives add ops.kickBed trigger
 scoreboard objectives add ops.sleep dummy
 
 #Message limits for sleeping and waking up (n-1)
-scoreboard players set _sleep_messages ops.sleep 14
-scoreboard players set _kick_messages ops.sleep 8
+scoreboard players set _sleep_messages ops.sleep 0
+scoreboard players set _kick_messages ops.sleep 0
 
 gamerule commandBlockOutput false
 gamerule sendCommandFeedback false
